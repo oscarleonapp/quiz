@@ -1,0 +1,13 @@
+[
+    {
+        "categoria":"publicidad",
+        "pregunta":"¿Qué significan las siglas G.O?",
+        "respuesta":"Grupo Objetivo",
+        "incorrecta1":"Ganancia Oculta",
+        "incorrecta2":"Grupo Orientado",
+        "incorrecta3":"Gangas Ofertadas",
+        "imagen":"https://www.mastermarketing-valencia.com/ventas-y-gestion-comercial/wp-content/uploads/sites/3/2020/11/Publico-objetivo.jpg",
+        "object_fit":"cover"
+
+    }
+]
