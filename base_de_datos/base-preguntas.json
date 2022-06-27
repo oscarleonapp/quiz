@@ -1,6 +1,17 @@
 [
     {
-        "categoria":"publicidad",
+        "categoria":"Diseño",
+        "pregunta":"¿Qué significan las siglas PSD?",
+        "respuesta":"Documento de Photoshop",
+        "incorrecta1":"1",
+        "incorrecta2":"2",
+        "incorrecta3":"3",
+        "imagen":"https://www.solvetic.com/uploads/tutorials/monthly_07_2017/40c976edd7a602f63b10fb3c298c4fd8.png",
+        "object_fit":"cover"
+
+    },
+    {
+        "categoria":"Publicidad",
         "pregunta":"¿Qué significan las siglas G.O?",
         "respuesta":"Grupo Objetivo",
         "incorrecta1":"Ganancia Oculta",
