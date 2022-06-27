@@ -1,3 +1,7 @@
+*{
+    transition: all 0.29s;
+}
+
 body {
     background-color: slategray;
     padding: 0;
@@ -36,4 +40,17 @@ body {
     object-fit: cover;
     height: 200px;
     width: 100%;
+}
+
+.btn {
+    background-color: aliceblue;
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.05);
 }
