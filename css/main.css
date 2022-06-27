@@ -18,11 +18,22 @@ body {
 
 .encabezado {
     background-color: aliceblue;
-    width: 300px;
-    height: 70%;
+    min-width: 300px;
+    padding: 10px;
+
 }
 
 .categoria {
     opacity: 0.3;
     text-align: left;
+}
+
+.pregunta {
+    padding: 10px;
+}
+
+.imagen {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
 }
