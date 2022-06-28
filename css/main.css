@@ -5,7 +5,7 @@
   }
 */
   body {
-    background: #373c68;
+    background: #23233b;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -24,7 +24,7 @@
 
   .encabezado {
     position: relative;
-    background: #ffff;
+    background: #ececf4;
     min-width: 300px;
     max-width: 600px;
     padding: 10px;
@@ -48,7 +48,7 @@
   }
 
   .btn {
-    background-color: aliceblue;
+    background-color: #ececf4;
     width: 60%;
     max-width: 550px;
     padding: 10px;
@@ -59,7 +59,8 @@
 
   .btn:hover {
     transform: scale(1.05);
-    background-color: #7066e0;
+    background-color: #797B3A;
+    color: #ececf4;
   }
   
   .numero{
@@ -75,5 +76,10 @@
 
   header {
       padding: 0.8rem;
-      background-color: #eca443;
+      background-color: #02bf63;
+      color: #efe9ef;
+  }
+
+  a{
+    text-decoration: none;
   }
