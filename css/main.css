@@ -24,11 +24,11 @@
 
   .encabezado {
     position: relative;
-    background: #ffffff;
-    min-width: 470px;
-    max-width: 470px;
+    background: #282a33;
+    min-width: 350px;
+    max-width: 350px;
     padding: 5px;
-    color: #373c68;
+    color: #282a33;
     border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
     margin-bottom: 1rem;
   }
@@ -42,13 +42,15 @@
 
   .pregunta {
     padding: 10px;
-    background-color: #fff4a3;
+    background-color: #e7be7a;
+    border-radius: 1rem 1rem 0rem 0rem;
   }
 
   .imagen {
     object-fit: cover;
     height: 0px;
     width: 0px;
+    border-radius: 0rem 0rem 1rem 1rem;
   }
 
   .btn {
@@ -58,7 +60,7 @@
     padding: 10px;
     margin: 5px;
     cursor: pointer;
-    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 1.5rem 0rem 1rem 0rem;
   }
 
   .btn:hover {
@@ -73,8 +75,8 @@
     right: 10px;
     width: 30px;
     height: 30px;
-    color: #fff4a3;
-    background-color: #fff4a3;
+    color: #e7be7a;
+    background-color: #e7be7a;
     border-radius: 3rem 3rem 3rem 3rem;
   }
   
@@ -95,7 +97,8 @@
       padding: 0.8rem;
       background-color: #04aa6d;
       color: #efe9ef;
-      border-radius: 0rem 0rem 1rem 1rem;
+      width: 100%;
+      border-radius: 0rem 0rem 0.1rem 0.1rem;
   }
 
   a{
