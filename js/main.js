@@ -21,7 +21,8 @@ let npreguntas = [];
 let preguntas_hechas = 0;
 let preguntas_correctas = 0;
 
-function escogerPreguntaAleatoria() {
+
+async function escogerPreguntaAleatoria() {
   let n;
   if (preguntas_aleatorias) {
     n = Math.floor(Math.random() * interprete_bp.length);
@@ -37,13 +38,14 @@ function escogerPreguntaAleatoria() {
     if (npreguntas.length == interprete_bp.length) {
       //Aquí es donde el juego se reinicia
       if (mostrar_pantalla_juego_términado) {
-        swal.fire({
+      await swal.fire({
           title: "Juego finalizado",
           text:
             "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas - 1),
           icon: "success"
         });
       }
+
       if (reiniciar_puntos_al_reiniciar_el_juego) {
         preguntas_correctas = 0
         preguntas_hechas = 0
@@ -122,7 +124,7 @@ function oprimir_btn(i) {
   setTimeout(() => {
     reiniciar();
     suspender_botones = false;
-  }, 3000);
+  }, 200);
 }
 
 // let p = prompt("numero")
