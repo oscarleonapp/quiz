@@ -24,21 +24,25 @@
 
   .encabezado {
     position: relative;
-    background: #f3ecec;
-    min-width: 300px;
-    max-width: 600px;
-    padding: 10px;
+    background: #ffffff;
+    min-width: 470px;
+    max-width: 470px;
+    padding: 5px;
     color: #373c68;
     border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    margin-bottom: 1rem;
   }
 
   .categoria {
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
   .pregunta {
     padding: 10px;
+    background-color: #fff4a3;
   }
 
   .imagen {
@@ -50,7 +54,7 @@
   .btn {
     background-color: #f3ecec;
     width: 60%;
-    max-width: 550px;
+    max-width: 300px;
     padding: 10px;
     margin: 5px;
     cursor: pointer;
@@ -67,11 +71,24 @@
     position: absolute;
     top: 10px;
     right: 10px;
+    width: 30px;
+    height: 30px;
+    color: #fff4a3;
+    background-color: #fff4a3;
+    border-radius: 3rem 3rem 3rem 3rem;
   }
   
   .puntaje{
     padding:10px;
+    max-width: 3rem;
+    min-width: 1.7rem;
+    min-height: 1rem;
+    max-height: 1rem;
     color:white;
+    background-color: #04aa6d;
+    border-radius: 0rem 0rem 1rem 1rem;
+    margin-top: -6px;
+    margin-bottom: 10px;
   }
 
   header {
@@ -83,4 +100,11 @@
 
   a{
     text-decoration: none;
+  }
+
+  h4 {
+    text-align: left;
+    color: brown;
+    padding: 0;
+    margin: 0;
   }
