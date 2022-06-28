@@ -111,13 +111,13 @@ function oprimir_btn(i) {
   suspender_botones = true;
   if (posibles_respuestas[i] == pregunta.respuesta) {
     preguntas_correctas++;
-    btn_correspondiente[i].style.background = "lightgreen";
+    btn_correspondiente[i].style.background = "#04aa6d";
   } else {
-    btn_correspondiente[i].style.background = "pink";
+    btn_correspondiente[i].style.background = "#b04631";
   }
   for (let j = 0; j < 4; j++) {
     if (posibles_respuestas[j] == pregunta.respuesta) {
-      btn_correspondiente[j].style.background = "lightgreen";
+      btn_correspondiente[j].style.background = "#04aa6d";
       break;
     }
   }
