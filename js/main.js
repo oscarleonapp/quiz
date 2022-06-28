@@ -47,6 +47,7 @@ function escogerPreguntaAleatoria() {
       if (reiniciar_puntos_al_reiniciar_el_juego) {
         preguntas_correctas = 0
         preguntas_hechas = 0
+        window.location.href = "http://www.w3schools.com";
       }
       npreguntas = [];
     }

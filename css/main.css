@@ -1,9 +1,11 @@
+
+/*
 * {
     transition: all 0.3s;
   }
-
+*/
   body {
-    background: cadetblue;
+    background: #2596be;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -12,8 +14,8 @@
   }
 
   .contenedor {
-    width: 98vw;
-    height: 97vh;
+    width: 100%;
+    height: 100%;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +26,6 @@
     position: relative;
     background: white;
     min-width: 300px;
-    width: 70%;
     max-width: 600px;
     padding: 10px;
   }
@@ -67,4 +68,9 @@
   .puntaje{
     padding:10px;
     color:white;
+  }
+
+  header {
+      background-color: aliceblue;
+      padding: 0.8rem;
   }
