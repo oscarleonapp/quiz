@@ -14,8 +14,6 @@
   }
 
   .contenedor {
-    width: 100%;
-    height: 100%;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +24,7 @@
     position: relative;
     background: #282a33;
     min-width: 350px;
-    max-width: 350px;
+    max-width: 400px;
     padding: 5px;
     color: #282a33;
     border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;

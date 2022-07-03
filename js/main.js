@@ -49,7 +49,7 @@ async function escogerPreguntaAleatoria() {
       if (reiniciar_puntos_al_reiniciar_el_juego) {
         preguntas_correctas = 0
         preguntas_hechas = 0
-        window.location.href = "http://www.w3schools.com";
+        window.location.href = "https://oscarl3on.github.io/Escuela_Desarrollo_Front_End/";
       }
       npreguntas = [];
     }
