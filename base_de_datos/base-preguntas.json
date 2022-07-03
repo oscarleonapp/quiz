@@ -77,45 +77,45 @@
 
     },
     {
-        "categoria":"Diseño",
-        "pregunta":"¿Qué significan las siglas PSD?",
-        "respuesta":"Documento de Photoshop",
-        "incorrecta1":"1",
-        "incorrecta2":"2",
-        "incorrecta3":"3",
+        "categoria":"HTML",
+        "pregunta":"¿Cuál es el archivo que devuelve un servidor al buscar una página web?",
+        "respuesta":"index.html",
+        "incorrecta1":"La página web",
+        "incorrecta2":"Una imagen",
+        "incorrecta3":"El servidor no devuelve nada",
         "imagen":"https://www.solvetic.com/uploads/tutorials/monthly_07_2017/40c976edd7a602f63b10fb3c298c4fd8.png",
         "object_fit":"cover"
 
     },
     {
-        "categoria":"Diseño",
-        "pregunta":"¿Qué significan las siglas PSD?",
-        "respuesta":"Documento de Photoshop",
-        "incorrecta1":"1",
-        "incorrecta2":"2",
-        "incorrecta3":"3",
+        "categoria":"HTML",
+        "pregunta":"¿Cuál es la extensión de un arhivo HTML?",
+        "respuesta":"html.html",
+        "incorrecta1":"html.xsl",
+        "incorrecta2":"html.psd",
+        "incorrecta3":"html.pag",
         "imagen":"https://www.solvetic.com/uploads/tutorials/monthly_07_2017/40c976edd7a602f63b10fb3c298c4fd8.png",
         "object_fit":"cover"
 
     },
     {
-        "categoria":"Diseño",
-        "pregunta":"¿Qué significan las siglas PSD?",
-        "respuesta":"Documento de Photoshop",
-        "incorrecta1":"1",
-        "incorrecta2":"2",
-        "incorrecta3":"3",
+        "categoria":"HTML",
+        "pregunta":"¿Qués es una tag?",
+        "respuesta":"Una etiqueta",
+        "incorrecta1":"Una imagen",
+        "incorrecta2":"Un tipo de archivo",
+        "incorrecta3":"Un atajo en html",
         "imagen":"https://www.solvetic.com/uploads/tutorials/monthly_07_2017/40c976edd7a602f63b10fb3c298c4fd8.png",
         "object_fit":"cover"
 
     },
     {
-        "categoria":"Publicidad",
-        "pregunta":"¿Qué significan las siglas G.O?",
-        "respuesta":"Grupo Objetivo",
-        "incorrecta1":"Ganancia Oculta",
-        "incorrecta2":"Grupo Orientado",
-        "incorrecta3":"Gangas Ofertadas",
+        "categoria":"HTML",
+        "pregunta":"¿El atributo de una etiqueta html va acompañado de un",
+        "respuesta":"Valor",
+        "incorrecta1":"Lugar",
+        "incorrecta2":"Espacio",
+        "incorrecta3":"Sentido común",
         "imagen":"https://dianasoluciones.com/wp-content/uploads/2019/07/Segmentaci%C3%B3n-de-Mercados-31-de-Julio-800x500-min-768x480.jpg",
         "object_fit":"cover"
 
